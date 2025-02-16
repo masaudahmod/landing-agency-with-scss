@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1296px;
+    margin: auto;
+}
+body{
+    background-color: #eeeeee;
+}
+
+
+// variable
+@import './abstracts/variable';
+
+body{
+    font-family: $poppins-font;
+}
+
+// mixin
+@import './abstracts/mixin';
+
+
+@import './pages/home';
+

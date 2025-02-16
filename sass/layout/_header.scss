@@ -1,0 +1,47 @@
+.navbar{
+    background-color: $backgroundColor;
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .menu ul{
+            line-height: 70px;
+            display: flex;
+            li{
+                margin-right: 20px;
+                a{
+                    font-size: $navFontSize;
+                    color: $navMenuColor;
+                    text-transform: capitalize;
+                    font-family: $poppins-font;
+                }
+                i{
+                    color: $navMenuColor;
+                }
+            }
+        }
+        .searchNav{
+            display: flex;
+            align-items: center;
+            position: relative;
+            input{
+                padding: 10px 45px 10px 5px;
+                color: #2b2b2b;
+                font-size: 16px;
+                border: $secondary-color;
+                border-radius: 10px;
+                // border: $secondary-color;
+                border: 2px solid $secondary-color;
+                &:focus{
+                    border: 2px solid $primary-color;
+                    outline: $primary-color;
+                }
+            }
+            i{
+                position: absolute;
+                right: 5%;
+                color: $navMenuColor;                
+            }
+        }
+    }
+}
