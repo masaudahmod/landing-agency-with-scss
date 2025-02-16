@@ -15,7 +15,7 @@ Welcome to the **SASS Agency Theme**! This is a modern, SEO-friendly, and fully 
 ## 🛠️ Installation & Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/sass-agency-theme.git
+   git clone https://github.com/masaudahmod/landing-agency-with-scss.git
    ```
 2. Navigate into the project folder:
    ```bash
@@ -45,7 +45,7 @@ Welcome to the **SASS Agency Theme**! This is a modern, SEO-friendly, and fully 
 ---
 
 ## 📷 Preview
-![Agency Theme Preview](https://yourwebsite.com/preview-image.jpg)
+![Agency Theme Preview](./images/preview-image.png)
 
 ---
 
